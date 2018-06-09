@@ -52,6 +52,7 @@ public class BFSShortestPathToAllNodes {
 				}
 				System.out.println(builder.toString());
 			}
+			sc.close();
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();

@@ -13,5 +13,6 @@ public class LonelyInteger {
             bitVector ^= num; 
         }
         System.out.println(bitVector);
+        in.close();
     }
 }

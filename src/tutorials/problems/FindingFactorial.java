@@ -14,5 +14,6 @@ public class FindingFactorial {
 	            n = n -1;
 	        }
 	        System.out.println(factorial);
+	        sc.close();
 	    }
 }

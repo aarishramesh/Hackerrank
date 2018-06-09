@@ -68,5 +68,6 @@ public class FindAnagramsBetweenTwoStrings {
         String a = in.next();
         String b = in.next();
         System.out.println(numberNeeded(a, b));
+        in.close();
     }
 }

@@ -27,6 +27,7 @@ public class DFSConnectedCellInGrid {
 		//graph.printNodesWithAdjacencyList();
 		graph.findMaxConnectedRegion();
 		System.out.println(graph.maxConnectedRegion);
+		in.close();
 	}
 
 	private static Graph constructGraph(int[][] grid, int rows, int columns) {
