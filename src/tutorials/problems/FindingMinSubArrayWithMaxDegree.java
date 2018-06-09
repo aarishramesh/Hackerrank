@@ -1,4 +1,4 @@
-package tutorials.ctci;
+package tutorials.problems;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -16,7 +16,7 @@ import java.util.Scanner;
  * @author aarishramesh
  *
  */
-public class FindingMinSubArrayWithDegree {
+public class FindingMinSubArrayWithMaxDegree {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
