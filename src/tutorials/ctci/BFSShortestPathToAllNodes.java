@@ -6,6 +6,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * Solution for https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+ * 
+ * @author polymath
+ *
+ */
 public class BFSShortestPathToAllNodes {
 
 	private static int[] resultArr;

@@ -2,6 +2,12 @@ package tutorials.ctci;
 
 import java.util.Scanner;
 
+/**
+ * Solution for https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem
+ * 
+ * @author polymath
+ *
+ */
 public class NumberOfPossibleClimbsStaircase {
 
 	private static int[] memoizedResults = null;

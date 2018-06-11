@@ -11,6 +11,12 @@ import java.util.Set;
 
 import tutorials.ctci.DFSConnectedCellInGrid.Graph.Node;
 
+/**
+ * Solution for https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem
+ * 
+ * @author polymath
+ *
+ */
 public class DFSConnectedCellInGrid {
 
 	public static void main(String[] args) {

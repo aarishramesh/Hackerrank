@@ -6,6 +6,7 @@ public class PrimalityTest {
 
 	private static final Scanner scanner = new Scanner(System.in);
 
+	// Using 6k+-1 rule for prime numbers
 	public static void main(String[] args) {
 		int p = scanner.nextInt();
 		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
@@ -37,5 +38,16 @@ public class PrimalityTest {
 
 		scanner.close();
 	}
+	
+	// Checking until square root of n because multiple of sq-rt of a number is not a prime number so
+	// 	it's sufficient to check for whether sq-rt of a number is a prime number
+	static boolean isPrime(int n) {
+        for(int i=2;i<=Math.sqrt(n);i++) {
+            if(n%i==0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
 

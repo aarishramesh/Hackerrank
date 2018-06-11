@@ -8,17 +8,8 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 
 /**
- * 2 3
-1 4
-4 5
-29 46
-11 56
-4 5
-40 46
-16 35
-55 74
-7 9
-
+ * Solution for https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem
+ * 
  * @author aarishramesh
  *
  */
